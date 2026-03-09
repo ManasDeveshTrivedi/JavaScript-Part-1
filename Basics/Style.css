@@ -1,0 +1,56 @@
+*{ /*Universal selector selects all elements on the webpage */
+    margin: 0;     /*Removes default outer spacing from every element*/
+    padding: 0;    /*Removes default inner spacing from every element*/
+    box-sizing:border-box;/**/
+
+}
+body{
+        background-color: rgb(255, 252, 165);
+        font-family: Arial;
+        font-size: 20px;
+        padding: 50px;
+    }
+h1{/*only for h1 headings*/
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+}
+ .first{ /*this only for the first class color change and use '.' */
+    color: red;
+}
+#your-name{/*for id use #*/
+     background-color:rgb(225, 220, 105) ;
+     border:5px solid #444;
+     width: 400px;
+     padding: 25px;
+}
+input,button{
+    padding: 10px;
+    font-size: 16px;
+
+}
+a{
+    background-color: yellowgreen;
+}
+
+#car-image{
+    width: 200px;
+    height: 300px;
+}
+
+#your-name h2{
+    color: olivedrab;
+}
+/* 
+Content:   text,images,etc;
+Padding:   transparent area around the padding and the content;
+Border:    goes around the padding and the content;
+Margin:    space between boxes;
+Fill area: area that gets filled with background color or background image;
+*/
