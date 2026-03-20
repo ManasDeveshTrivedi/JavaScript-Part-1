@@ -41,8 +41,24 @@ const users=[
     }
 ]
 //console.log(users[1]);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));//all the keys created inside tinderUser are shown
-console.log(Object.values(tinderUser));//all the values for the key
-console.log(Object.entries(tinderUser));//key: value format entries
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));//all the keys created inside tinderUser are shown
+// console.log(Object.values(tinderUser));//all the values for the key
+// console.log(Object.entries(tinderUser));//key: value format entries
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+const course={
+    courseName:"JS by chai",
+    price:'999',
+    courseInstructor:'Hitesh'
+}
+const{courseInstructor: ins}=course//destructuring of object
+console.log(ins);
+// const navbar= ({courseName}) =>{
+//this is also destructuring of object
+// }
+// { /*Example for JSON*/
+//     "name":"Manas",
+//     "age":"21",
+//     "hobby":"nothing,sleep"
+// }
