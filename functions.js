@@ -33,4 +33,24 @@ function loginMsg(username="Dev"){
     return `${username} just logged in`
 }
 // console.log(loginMsg("Manas"));
-console.log(loginMsg());
+//console.log(loginMsg());
+//{...num} these "..." are known as rest and spread operator
+
+function numbers(val1,val2,num){
+    return{
+    val1,
+    val2,
+    num}
+}
+function anyOne(Obj){
+    return `Value 1 is ${Obj.val1} & Value 2 is ${Obj.val2} the number is ${Obj.num}`
+}
+const res=numbers(10,50,100)
+console.log(anyOne(res));
+
+
+const newArray=[20,30,40,50,60]
+function location(getnewArray){
+    return getnewArray[2]
+}
+console.log(location(newArray));
