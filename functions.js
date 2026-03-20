@@ -36,17 +36,18 @@ function loginMsg(username="Dev"){
 //console.log(loginMsg());
 //{...num} these "..." are known as rest and spread operator
 
-function numbers(val1,val2,num){
+function numbers(val1,val2,...num){
     return{
     val1,
     val2,
     num}
 }
 function anyOne(Obj){
-    return `Value 1 is ${Obj.val1} & Value 2 is ${Obj.val2} the number is ${Obj.num}`
+    return(`Value 1 is ${Obj.val1} & Value 2 is ${Obj.val2} the number is ${Obj.num}`);
 }
-const res=numbers(10,50,100)
+const res=numbers(10,50,100,150,200)
 console.log(anyOne(res));
+console.log();
 
 
 const newArray=[20,30,40,50,60]
