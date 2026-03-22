@@ -20,8 +20,8 @@
     console.log("Namaste3");
  })();
 
-( const hi= (nam) =>{
-    nam="Manas"
+((nam) =>{
+    nam="Namaste4"
     console.log(nam);  
  })();
  //last ke liye ; zarurat nhi
