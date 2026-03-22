@@ -22,3 +22,19 @@ const user={
 //     console.log(this.username);
 // }
 // chai()
+
+// const chai=()=>{
+//     let username="manas"
+//     console.log(this.username);
+// }
+// chai()
+
+// const addTwo= (num1,num2) => {
+//     const add=num1+num2
+//     console.log(add);    
+// }
+// addTwo(2,3)
+
+// const addTwo= (num1,num2) => num1+num2    
+const addTwo= (num1,num2) => (num1+num2)    
+console.log((addTwo(2,3)));
