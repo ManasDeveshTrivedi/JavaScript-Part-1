@@ -29,5 +29,11 @@
 
 let val1;
 val1=5 ?? 10
-
+//?? sirf check karta hai: null ya undefined
+//Yaha 5 neither null hai, na undefined
 console.log(val1);
+//Ternary Operator
+ const ice=10
+ ice<=50 ? console.log("Less than 50") : console.log("more than");
+ 
+ 
